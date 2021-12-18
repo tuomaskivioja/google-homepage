@@ -1,17 +1,54 @@
-<html lang='eng'>
+<!DOCTYPE html>
+<html lang='en'>
     <head>
-        <style type="text/css">
-            .google-logo {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 100px;
-            }
-    
-        </style>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <img alt='Google logo' class='google-logo' src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'>
+        <nav>
+            <div class='nav-div' id='nav-div-1'>
+                <a class='nav-link-1' href='#'>About</a>
+                <a class='nav-link-1' href='#'>Store</a>
+            </div>
+            <div class='nav-div'></div>
+            <div class='nav-div' id='nav-div-3'>
+                <a class='nav-link-2' href='#'>Gmail</a>
+                <a class='nav-link-2' href="https://google.com/search">Images</a>
+                <a class='nav-link-2' href='#'><img class='nav-img' src='outline_apps_black_24dp.png' alt='apps-image'></a>
+                <a class='nav-link-2' href='#'><img class='nav-img' src='outline_account_circle_black_24dp.png'></a>
+            </div>
+        </nav>
+        <div class='page-div' id='div-1'>
+            <img alt='Google logo' class='google-logo' src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'>
+        </div>
+        <div class='page-div' id='div-2'>
+            <form action="https://google.com/search">
+                <div class='searchbar'>
+                    <img class='search-image' src='outline_search_black_24dp.png' alt='search-image'>
+                    <input type="text" name="q" id='search'>
+                    <img class='search-image' id='voice-image' src='outline_mic_black_36dp.png' alt='voice-img'> 
+                </div>  
+                <div id='buttons'>
+                    <input class='button' type="submit" value="Google Search">                
+                    <input class='button' type="submit" value="I'm Feeling Lucky">
+                </div>
+            </form>         
+        </div>
+        <div class='page-div' id='div-3'>
 
+        </div>
+        <footer>
+            <div id='text'>
+                <p>United Kingdom</p>
+            </div>
+            <div class='footer'>
+             <a class='footer-link' href='#'>Advertising</a>
+             <a class='footer-link' href='#'>Business</a>
+             <a class='footer-link' href='#'>How Search Works</a>
+             <a class='footer-link' href='#'>Privacy</a>
+             <a class='footer-link' href='#'>Terms</a>
+             <a class='footer-link' href='#'>Settings</a>
+             </div>
+        </footer>
     </body>
-    </html>
+</html>
